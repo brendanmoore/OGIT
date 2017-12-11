@@ -21,10 +21,10 @@ ogit.Forum:Reply
 		ogit:content
 	);
 	ogit:optional-attributes (
-		
+
 	);
 	ogit:indexed-attributes (
-		
+
 	);
 	ogit:history (
 		[
