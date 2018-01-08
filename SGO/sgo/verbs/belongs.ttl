@@ -143,6 +143,12 @@ ogit:belongs
 			dcterms:description "add Rating -> Reply";
 			dcterms:creator "bmoore@arago.de";
 		]
+		[
+			dcterms:identifier "22";
+			dcterms:date "2018-01-08";
+			dcterms:description "add Review -> Reply";
+			dcterms:creator "bmoore@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -331,6 +337,10 @@ ogit:belongs
 		]
 		[
 			ogit:from ogit.Forum:Rating;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:Review;
 			ogit:to ogit.Forum:Reply;
 		]
 	);
